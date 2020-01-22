@@ -43,6 +43,8 @@ hr{
 }
 .bg-mobile, .mobilelogo-close{
     display: none;
+    visibility: hidden;
+    opacity: 0;
 }
 .menu-nav ul{
     display: flex;
