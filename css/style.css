@@ -38,10 +38,7 @@ hr{
     justify-content: space-between;
     padding: 30px 160px;
 }
-.mobile-logo{
-    display: none;
-}
-.bg-mobile, .mobilelogo-close{
+.mob-logo{
     display: none;
     visibility: hidden;
     opacity: 0;
@@ -253,10 +250,6 @@ hr{
     right: 0;
     height: 50%;
 }
-
-
-
-
 /* MEDIA QUERIES */
 
 /* 1150 */
@@ -265,7 +258,6 @@ hr{
         padding: 30px 40px;
     }
     .intro-item{
-
         padding: 20px 40px;
     }
     .different{
@@ -316,7 +308,7 @@ hr{
         background: hsl(270, 9%, 17%);
         position: fixed;
         top: 11%;
-        z-index: 10000;
+        z-index: 100;
         width: 100%;
         height: 80%;
         padding: 0;
@@ -327,6 +319,11 @@ hr{
     .mobile-nav.active{
         opacity: 1;
         visibility: visible;
+    }
+    .mob-logo{
+        display: block;
+        visibility: visible;
+        opacity: 1;
     }
     .bg-mobile{
         display: block;
