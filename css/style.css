@@ -572,4 +572,15 @@ hr {
         margin-top: 40px;
         height: 100%;
     }
+    .mobile-nav {
+        top: 10%;
+
+    }
+}
+@media(max-width:320px){
+    .mobile-nav {
+        top: 10%;
+
+    }
+
 }
