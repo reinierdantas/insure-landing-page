@@ -468,6 +468,8 @@ hr {
 
     .intromobile-image img {
         width: 100%;
+        margin-top: 20px;
+        height: 100%;
     }
 
     .intromobile-info {
@@ -565,5 +567,9 @@ hr {
 @media(max-width:375px) {
     .social-icon {
         padding-top: 20px;
+    }
+    .intromobile-image img {
+        margin-top: 40px;
+        height: 100%;
     }
 }
